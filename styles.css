@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(214, 214, 214);
+  background-image: url("https://github.com/NilsHolthey/my-first-website/blob/main/images/Vector.png?raw=true");
+  margin: 0px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #272e36;
+  width: 100%;
+}
+
+.Photo {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  -border-radius: 50%;
+  -box-shadow: 0px 0px 16px rgb(219, 210, 210);
+}
+.Photo:hover {
+  opacity: 1;
+  -scale: 1.1;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px rgb(219, 210, 210);
+}
+
+.text {
+  display: flex;
+  background-color: #b0b4c061;
+  -border-radius: 10px;
+  box-shadow: 0px 0px 16px rgb(233, 231, 231);
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20px;
+}
+.biolist {
+  list-style-type: none;
+}
+.contacts {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.546);
+  display: flex;
+  -gap: 40px;
+  flex-wrap: wrap;
+  box-shadow: inset 0px 0px 16px rgba(107, 104, 104, 0.692);
+  margin: 0;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+}
+.h1 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.bio {
+  display: flex;
+  background-color: #b0b4c061;
+  -border-radius: 10px;
+  box-shadow: 0px 0px 16px rgb(233, 231, 231);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 2;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  box-shadow: 0px 0px 16px rgba(5, 5, 5, 0.692);
+  color: #676a7c;
+  width: 100%;
+  -position: fixed;
+  background-color: rgba(1, 1, 1, 0.685);
+  padding-top: 15px;
+  padding-bottom: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.navigation:hover {
+  -transform: scale(1.1);
+  _background-color: rgba(205, 204, 204, 0.582);
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(170, 170, 170, 0.341);
+  -border-radius: 10px;
+  box-shadow: 0px 0px 16px rgb(255, 255, 255);
+
+  padding: 15px;
+  align-items: center;
+}
+.socials:hover {
+  _height: 100px;
+}
+
+.icons {
+  opacity: 0.7;
+}
+.icons:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.footer {
+  display: flex;
+  padding: 10px;
+  background-color: rgba(1, 1, 1, 0.685);
+  box-shadow: 0px 0px 16px rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.datenschutz {
+  display: flex;
+  -background-color: rgba(146, 146, 146, 0.341);
+  font-size: 15px;
+  -border: solid rgba(146, 146, 146, 0.341) 3px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -box-shadow: 0px 0px 10px rgba(175, 173, 173, 0.567);
+}
+.datenschutz:hover {
+  _background-color: rgba(129, 129, 134, 0.615);
+}
+.impressum {
+  -border: solid rgba(146, 146, 146, 0.341) 3px;
+  display: flex;
+  font-size: 15px;
+  -box-shadow: 0px 0px 10px rgba(233, 223, 223, 0.567);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -background-color: rgba(170, 170, 170, 0.341);
+}
+.impressum:hover {
+  _background-color: rgba(129, 129, 134, 0.615);
+}
+
+.phone {
+  color: #272e36;
+}
+.mail {
+  color: #272e36;
+}
+
+a {
+  color: rgb(238, 237, 237);
+  text-decoration-line: none;
+}
+-a:visited {
+  color: #840909;
+}
+a:hover {
+  color: #5b6e7f;
+}
